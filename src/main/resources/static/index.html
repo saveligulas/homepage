@@ -1,11 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Saveli Gulas</title>
+    <meta charset="UTF-8">
+    <title>SG Dashboard</title>
+    <link rel="stylesheet" href="css/90s.css">
 </head>
 <body>
-<div class="status">
-    <p>Github action works!</p>
+
+<div class="navbar">
+    <span>SAVELI_GULAS_DASHBOARD</span>
+    <div>
+        <a href="#">[HOME]</a>
+        <a href="#">[PROJECTS]</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sidebar">
+        <div class="box">
+            <h3>LINKS</h3>
+            <ul style="padding-left: 20px; list-style-type: square;">
+                <li><a href="https://github.com/saveligulas">Github</a></li>
+            </ul>
+            <br>
+            <div class="box-inset" style="background: black; color: #00FF00;">
+                SYSTEM: ONLINE<br>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+
+        <div class="box">
+            <h2>USER STATS</h2>
+            <hr style="border: 1px solid white; border-top: 1px solid gray;">
+
+            <div class="row">
+                <div class="col">
+                    <label>LOVES:</label>
+                    <input type="text" value="Java; - ; - ; - ; - ; JAVA and gummy bears" readonly>
+                </div>
+                <div class="col">
+                    <label>HATES:</label>
+                    <input type="text" value="paithon" readonly>
+                </div>
+            </div>
+            <br>
+
+            <label>NOTICE:</label>
+            <textarea rows="4" readonly>...</textarea>
+
+            <div class="text-right" style="margin-top: 15px;">
+                <button>DO NOTHING</button>
+                <button>ALSO DOES NOTHING</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col box">
+                <h3>SERVER STATS</h3>
+                <div class="box-inset">
+                    CPU: 67%<br>
+                    RAM: 9685GB / 128MB<br>
+                    TEMP: >9000°C
+                </div>
+            </div>
+
+            <div class="col box">
+                <h3>ACTIVE PROCESSES</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>PID</th>
+                        <th>NAME</th>
+                        <th>MEM</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1044</td>
+                        <td>SYSTEM</td>
+                        <td>10 MB</td>
+                    </tr>
+                    <tr>
+                        <td>2201</td>
+                        <td>EXPLORER</td>
+                        <td>2 MB</td>
+                    </tr>
+                    <tr>
+                        <td>0045</td>
+                        <td>HELLO_WORLD.JAVA</td>
+                        <td>9348 GB</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
 </div>
 </body>
 </html>
+
